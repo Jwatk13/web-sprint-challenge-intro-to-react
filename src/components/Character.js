@@ -7,7 +7,7 @@ const Character = (props) => {
             <h3>Name: {props.card}</h3>
                 <p>
                   Gender: {props.gender},
-                  Height: {props.height},
+                  Height: {props.height}cm,
                   Mass: {props.mass},
                   Hair Color: {props.hairColor}
                 </p>
