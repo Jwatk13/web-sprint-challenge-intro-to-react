@@ -4,7 +4,13 @@ import React from 'react';
 const Character = (props) => {
     return (
         <div className='character-data-wrapper'>
-            <h3>Name: {props.card.name}</h3>
+            <h3>Name: {props.card}</h3>
+                <p>
+                  Gender: {props.gender},
+                  Height: {props.height},
+                  Mass: {props.mass},
+                  Hair Color: {props.hairColor}
+                </p>
         </div>
     );
 }
