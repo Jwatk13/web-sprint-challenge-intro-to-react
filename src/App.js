@@ -27,6 +27,11 @@ const App = () => {
     <div className="App">
       <h1 className="Header">Characters</h1>
       {characterData && characterData.map((character, index) => <Character  key={index} card={character.name} gender={character.gender} height={character.height} mass={character.mass} hairColor={character.hair_color} />)}
+      <footer>
+        <p>
+          {/* empty paragraph for spacing... */}
+        </p>
+      </footer>
     </div>
 
   );
