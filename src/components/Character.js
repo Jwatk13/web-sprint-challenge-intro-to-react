@@ -9,7 +9,7 @@ const keyFrame = keyframes`
 `
 
 const StyledCharacter = styled.div`
-    width: 50%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
